@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Magret — Personal Site</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Magret — building, learning, and shipping at TechNest."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234f46e5'/%3E%3Ctext x='50%25' y='54%25' font-family='system-ui,sans-serif' font-size='34' font-weight='700' text-anchor='middle' fill='white'%3EM%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span class="brand-name">Magret</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="https://github.com/your-username" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/your-username" rel="noopener"
+            >LinkedIn</a
+          >
+          <a href="mailto:you@example.com">Email</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1 id="hero-title" class="hero-title">
+          Magret <span class="accent">— building, learning, shipping.</span>
+        </h1>
+        <p class="hero-tagline">
+          A short one-line tagline about what you do — e.g. "Software developer
+          learning AI through TechNest."
+        </p>
+
+        <p class="hero-intro">
+          This is a placeholder intro. In a few sentences, share who you are,
+          what you're working on right now, and what you'd like visitors to do
+          next. Keep it friendly and concrete: tools you use, problems you like
+          solving, and where you're heading.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:you@example.com"
+            >Contact me</a
+          >
+          <a
+            class="btn btn-ghost"
+            href="https://github.com/your-username"
+            rel="noopener"
+            >View GitHub</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Magret. Built with HTML and CSS.</p>
+        <p class="muted">Last updated <time datetime="2026-05-02">May 2, 2026</time></p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
