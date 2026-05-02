@@ -62,5 +62,10 @@ npx vercel@latest login
 npx vercel@latest --prod
 ```
 
+## Vercel Deploy URL
+```
+hello-technest-website.vercel.app
+```
+
 Vercel will print your live URL in the output.
 
