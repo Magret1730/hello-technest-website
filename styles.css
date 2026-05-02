@@ -49,7 +49,8 @@ body {
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  max-height: 100vh;
+  border: 1px solid blue;
+  min-height: 100vh;
 }
 
 a {
@@ -246,9 +247,12 @@ a:hover {
 
 .site-footer {
   border-top: 1px solid var(--border);
-  margin-top: 3rem;
   padding: 1.5rem 0;
   background: var(--bg-elev);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
 }
 
 .footer-inner {
