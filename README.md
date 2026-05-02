@@ -1,26 +1,48 @@
 # hello-technest-website
 
-A simple personal portfolio website built with plain **HTML + CSS** (no framework).
+A lightweight personal portfolio built with **HTML and CSS** — no frameworks, just clean and accessible web fundamentals.
 
-## What’s inside
+---
 
-- `index.html`: page structure + content (update the placeholders for your name, tagline, and links)
-- `styles.css`: responsive styling, dark mode (`prefers-color-scheme`), accessible focus states
+## ✨ Overview
 
-## Customize
+This project is a simple, responsive portfolio page designed to showcase personal information, links, and projects.
 
-Edit these in `index.html`:
+### Includes:
+- Semantic HTML structure  
+- Responsive layout  
+- Dark mode support (`prefers-color-scheme`)  
+- Accessible focus states  
 
-- **Name**: currently `Magret` (header, hero, footer)
-- **Links**:
-  - `https://github.com/your-username`
-  - `https://www.linkedin.com/in/your-username`
-  - `mailto:you@example.com`
-- **Text**: tagline + intro paragraph
+---
+
+## 📁 Project Structure
+├── index.html # Main page structure and content
+└── styles.css # Styling, layout, and responsiveness
+
+
+---
+
+## 🛠️ Customization
+
+Update the following in `index.html`:
+
+- **Name**  
+  Replace `Magret` with your preferred display name
+
+- **Links**
+  - GitHub  
+  - LinkedIn  
+  - Email address  
+
+- **Content**
+  - Hero tagline  
+  - Intro section  
+
+---
 
 ## Diagram (Mermaid)
-
-```mermaid
+mermaid
 flowchart TD
   browser[Browser] --> index[index.html]
   index --> css[styles.css]
@@ -30,42 +52,14 @@ flowchart TD
     auth -->|npx vercel --prod| vercel[Vercel_deployment]
     vercel --> url[Live_URL]
   end
+
+
+## Live Site
+```
+https://hello-technest-website.vercel.app
 ```
 
-## Preview locally
-
-Any static server works. Two easy options:
-
-```bash
-cd "/Users/Magret/Desktop/software-development/TechNest/learning-AI-ChanMeng/technest-week-1/hello-technest-website"
-
-# Option A (Python)
-python3 -m http.server 5173
-
-# Option B (Node)
-npx serve .
-```
-
-Then open `http://localhost:5173`.
-
-## Deploy to Vercel
-
-From this folder:
-
-```bash
-cd "/Users/Magret/Desktop/software-development/TechNest/learning-AI-ChanMeng/technest-week-1/hello-technest-website"
-
-# First time only (sign in; opens browser)
-npx vercel@latest login
-
-# Deploy to production
-npx vercel@latest --prod
-```
-
-## Vercel Deploy URL
-```
-hello-technest-website.vercel.app
-```
-
-Vercel will print your live URL in the output.
-
+## Notes
+- Built as part of my learning journey at TechNest
+- Created using Cursor as part of my development workflow
+- Focused on mastering fundamentals before adding frameworks
