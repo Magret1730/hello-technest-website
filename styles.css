@@ -49,6 +49,7 @@ body {
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  max-height: 100vh;
 }
 
 a {
